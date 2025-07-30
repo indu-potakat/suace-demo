@@ -3,8 +3,11 @@ const dotenv = require('dotenv')
 dotenv.config()
 
 module.exports = defineConfig({
+  reporter: 'cypress-mochawesome-reporter', //for html report
   e2e: {
     setupNodeEvents(on, config) {
+       screenshotOnRunFailure=true
+    require('cypress-mochawesome-reporter/plugin' ) (on)
       // implement node event listeners here
     },
     baseUrl: 'https://www.saucedemo.com/',
@@ -36,6 +39,13 @@ module.exports = defineConfig({
       step_one_checkout: "https://www.saucedemo.com/checkout-step-one.html",
       checkout_complete : "https://www.saucedemo.com/checkout-complete.html",
       step_two_checkout: "https://www.saucedemo.com/checkout-step-two.html",
-    }
+    },
+  reporterOptions: {
+    reportDir: 'cypress/results',
+    charts: true,
+    reportPageTitle: 'My Cypress Report',
+    embeddedScreenshots: true,
+    inlineAssets: true,
+  }
   },
 });
