@@ -1,1 +1,6 @@
 /node_modules
+# Cypress output
+cypress/screenshots/
+cypress/videos/
+cypress/results/
+cypress/reports/

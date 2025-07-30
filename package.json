@@ -4,6 +4,11 @@
     "cypress-mochawesome-reporter": "^3.8.4",
     "dotenv": "^17.2.1",
     "mocha": "^11.7.1",
-    "mochawesome": "^7.1.3"
+    "mochawesome": "^7.1.3",
+    "prettier": "^3.6.2"
+  },
+  "scripts": {
+    "copy-report": "cp cypress/reports/html/index.html cypress/reports/html/report_backup_$(date +\"%Y%m%d_%H%M%S\").html"
   }
 }
+
