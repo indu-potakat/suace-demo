@@ -24,6 +24,12 @@ Ensure that you have the following software installed on your machine:
 - [Node.js](https://nodejs.org/) (version 14 or higher)
 - npm (Node package manager)
 
+## .env
+Create a .env file within the sauce demo folder and save the following environment variables based on the requirement<br>
+SUCCESS_LOGIN=<br>
+PASSWORD=<br>
+LOCKEDOUT_USER=l<br>
+
 ### Installation
 
 1. Clone this repository:
