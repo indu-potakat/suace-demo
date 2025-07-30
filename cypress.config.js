@@ -25,7 +25,6 @@ module.exports = defineConfig({
     },
     password: process.env.PASSWORD,
     messages: {
-      msg_not_match: "Epic sadface: Username and password do not match any user in this service",
       msg_locked_out: "Epic sadface: Sorry, this user has been locked out.",
       msg_empty_username: "Epic sadface: Username is required",
       msg_empty_password: "Epic sadface: Password is required",
