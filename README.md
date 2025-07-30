@@ -1,10 +1,4 @@
-# suace-demo
 # Web Automation Testing using Cypress on Saucedemo
-
-<p align="center">
-    <img src="cypress/screenshots/img/cypress-logo.svg" alt="cypress" width="500" style="margin-left: 10px;" >
-</p>
-
 This repository is the result of a project practice aimed at learning and applying Web Automation testing using Cypress. The main focus of this project is to validate the core functionalities of Saucedemo. The web automation Saucedemo covering the functional test of auth, cart, and products. This source of project is [Saucedemo](https://www.saucedemo.com/) web demo application. 
 
 ## Test Cases
@@ -35,9 +29,9 @@ This framework uses cypress-mochawesome-reporter to generate test reports automa
 the report will be saved at: cypress/reports/html/index.html
 
 ### Below is the screenshot of the test report after executing cypress tests 
-![Report1](cypress/screenshots/supportingimages/Image1.png)
-![Report2](cypress/screenshots/supportingimages/Image2.png)
-![Report3](cypress/screenshots/supportingimages/Image3.png)
+![Report1](cypress/screenshots/supportingimages/Image1.jpg)
+![Report2](cypress/screenshots/supportingimages/Image2.jpg)
+![Report3](cypress/screenshots/supportingimages/Image3.jpg)
 
 
 ### Installation
