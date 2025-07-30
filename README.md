@@ -28,7 +28,7 @@ Ensure that you have the following software installed on your machine:
 Create a .env file within the sauce demo folder and save the following environment variables based on the requirement<br>
 SUCCESS_LOGIN=<br>
 PASSWORD=<br>
-LOCKEDOUT_USER=l<br>
+LOCKEDOUT_USER=<br>
 
 ### Installation
 
