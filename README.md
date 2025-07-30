@@ -38,7 +38,7 @@ the report will be saved at: cypress/reports/html/index.html
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/hbibakbr/web-saucedemo-cypress.git
+   git clone https://github.com/indu-potakat/suace-demo.git
    cd repo
    ```
 2. Install cypress
