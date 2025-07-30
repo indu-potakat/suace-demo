@@ -30,6 +30,16 @@ SUCCESS_LOGIN=<br>
 PASSWORD=<br>
 LOCKEDOUT_USER=<br>
 
+## Test Reporting  
+This framework uses cypress-mochawesome-reporter to generate test reports automatically. After test execution,<br>
+the report will be saved at: cypress/reports/html/index.html
+
+### Below is the screenshot of the test report after executing cypress tests 
+![Report1](cypress/screenshots/supportingimages/Image1.png)
+![Report2](cypress/screenshots/supportingimages/Image2.png)
+![Report3](cypress/screenshots/supportingimages/Image3.png)
+
+
 ### Installation
 
 1. Clone this repository:
