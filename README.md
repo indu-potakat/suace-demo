@@ -10,7 +10,7 @@ This test suite have 4 test cases :
 4. Validate Product Page - This test case validates Product page.
 
 ## Getting Started
-
+Source code , github link : https://github.com/indu-potakat/suace-demo.git
 ### Prerequisites
 
 Ensure that you have the following software installed on your machine:
